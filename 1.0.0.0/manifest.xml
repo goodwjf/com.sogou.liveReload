@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<id>com.sogou.liveReload</id>
+	<name>liveReload</name>
+	<show_icon>false</show_icon>
+	<description>liveReload</description>
+	<background page="background.html" />
+	<author>Sogou</author>
+	<version>1.0.0.0</version>
+	<request_api_version>1</request_api_version>
+ 
+	<content_scripts>
+		<content_script>
+			<run_at>document_end</run_at>
+			 <match>http://*/*</match> 
+			  <match>file:///*/*</match> 
+			<js>js/livepage.js</js>
+		</content_script>
+	</content_scripts>
+ 
+	<permissions>
+	    <permission>sogou</permission>
+	    <permission>management</permission>
+	    
+	</permissions>
+</extension>
