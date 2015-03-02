@@ -15,7 +15,7 @@ copy liveBgPage.js,在background.html底部植入以下代码:
 [generator-sogou](https://github.com/goodwjf/generator-sogou) 
  
 > ####generator-sogou
-其基于 [Yeoman](http://yeoman.io)需运行在node环境上，它的主要功能自动化创建SogouExplorer Extension，
+其基于 [Yeoman](http://yeoman.io)需运行在**node**环境上，它的主要功能自动化创建*SogouExplorer Extension*，
 实时刷新插件 包括 background部分，自动打包发布sext 省去了很多目录文件操作，这种无趣的事情就交给 generator-sogou 吧！
  
 ## License
