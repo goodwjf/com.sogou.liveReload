@@ -11,8 +11,6 @@ copy liveBgPage.js,在background.html底部植入以下代码:
 ```
 具体可参考[liveReload2_bg.sext](https://github.com/goodwjf/com.sogou.liveReload/tree/master/sext/liveReload2_bg.sext)
 
-######
-
 如果是`SogouExplorer Extension `的开发其实还有更好的选择，这里推荐一个更智能的工具：
 [generator-sogou](https://github.com/goodwjf/generator-sogou) 
  
