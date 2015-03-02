@@ -4,13 +4,14 @@
 直接安装可以作为web AuotReload sogou浏览器插件使用，
 应用于web开发 监控 html js css 包括引入的外部资源发生改变的时候自动刷新页面；
 但不支持 SogouExplorer Extension 的开发 因为无法监视 background 部分 如需要只能手动配置
-copy liveBgPage.js,在background.html底部植入以下代码,具体可参考[liveReload2_bg.sext](https://github.com/goodwjf/com.sogou.liveReload/tree/master/sext/liveReload2_bg.sext)
+copy liveBgPage.js,在background.html底部植入以下代码:
 ```bash
      <!-- liveBgPage 考虑执行顺序 必须放置最好一个script标签后 -->
      <script src="js/liveBgPage.js"></script>
 ```
+具体可参考[liveReload2_bg.sext](https://github.com/goodwjf/com.sogou.liveReload/tree/master/sext/liveReload2_bg.sext)
 
-如果是SogouExplorer Extension 的开发其实还有更好的选择，这里推荐一个更智能的工具：
+如果是`SogouExplorer Extension `的开发其实还有更好的选择，这里推荐一个更智能的工具：
 [generator-sogou](https://github.com/goodwjf/generator-sogou) 
  
 > ####generator-sogou
