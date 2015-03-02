@@ -9,10 +9,10 @@ copy liveBgPage.js,在background.html底部植入以下代码:
      <!-- liveBgPage 考虑执行顺序 必须放置最好一个script标签后 -->
      <script src="js/liveBgPage.js"></script>
 ```
-具体可参考[liveReload2_bg.sext](https://github.com/goodwjf/com.sogou.liveReload/tree/master/sext/liveReload2_bg.sext)
+具体可参考：[liveReload2_bg.sext](https://github.com/goodwjf/com.sogou.liveReload/tree/master/sext/liveReload2_bg.sext)
 
 如果是`SogouExplorer Extension `的开发其实还有更好的选择，这里推荐一个更智能的工具：
-[generator-sogou](https://github.com/goodwjf/generator-sogou) 
+[*generator-sogou*](https://github.com/goodwjf/generator-sogou) 
  
 > ####generator-sogou
 其基于 [Yeoman](http://yeoman.io)需运行在**node**环境上，它的主要功能自动化创建*SogouExplorer Extension*，
