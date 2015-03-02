@@ -1,7 +1,7 @@
 # com.sogou.liveReload
 ##使用说明：
 [liveReload.sext](https://github.com/goodwjf/com.sogou.liveReload/tree/master/sext/liveReload.sext)
-直接安装可以作为web AuotReload sogou浏览器插件使用，
+直接安装可以作为AuotReload sogou浏览器插件使用，
 应用于web开发 监控 html js css 包括引入的外部资源发生改变的时候自动刷新页面；
 但不支持 SogouExplorer Extension 的开发 因为无法监视 background 部分 如需要只能手动配置
 copy liveBgPage.js,在background.html底部植入以下代码:
