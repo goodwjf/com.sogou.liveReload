@@ -6,7 +6,7 @@
 但不支持 SogouExplorer Extension 的开发 因为无法监视 background 部分 如需要只能手动配置
 copy liveBgPage.js,在background.html底部植入以下代码:
 ```bash
-     <!-- liveBgPage 考虑执行顺序 必须放置最好一个script标签后 -->
+     <!-- liveBgPage 考虑执行顺序 必须放置最后一个script标签后 -->
      <script src="js/liveBgPage.js"></script>
 ```
 具体可参考：[liveReload2_bg.sext](https://github.com/goodwjf/com.sogou.liveReload/tree/master/sext/liveReload2_bg.sext)
